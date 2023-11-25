@@ -1,0 +1,6 @@
+for file in "$HOME/.hyprland_scripts/hypr.d/end/*"; do
+  $file
+done
+
+hyprctl dispatch exit
+chvt 1
